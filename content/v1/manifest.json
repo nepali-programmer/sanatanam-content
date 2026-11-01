@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "manifest_version": 1,
+  "languages": [
+    "sa"
+  ],
+  "deities": [
+    {
+      "slug": "krishna",
+      "names": {
+        "en": "Krishna",
+        "ne": "कृष्ण",
+        "hi": "कृष्ण",
+        "sa": "कृष्णः"
+      },
+      "scripture_count": 1
+    },
+    {
+      "slug": "vishnu",
+      "names": {
+        "en": "Vishnu",
+        "ne": "विष्णु",
+        "hi": "विष्णु",
+        "sa": "विष्णुः"
+      },
+      "scripture_count": 1
+    }
+  ],
+  "categories": [
+    {
+      "slug": "smriti",
+      "names": {
+        "en": "Smriti",
+        "ne": "स्मृति",
+        "hi": "स्मृति",
+        "sa": "स्मृतिः"
+      }
+    }
+  ],
+  "scriptures": [
+    {
+      "slug": "bhagavad-gita",
+      "deities": [
+        "krishna",
+        "vishnu"
+      ],
+      "category": "smriti",
+      "titles": {
+        "en": "Bhagavad Gita",
+        "ne": "श्रीमद्भगवद्गीता",
+        "hi": "श्रीमद्भगवद्गीता",
+        "sa": "श्रीमद्भगवद्गीता"
+      },
+      "order": 10,
+      "verse_count": 700,
+      "packs": {
+        "sa": {
+          "path": "content/v1/packs/bhagavad-gita/sa/0001.json.gz",
+          "bytes": 80570,
+          "sha256": "fcf466f734cf102703ff153b7d7bf5b00457448a60d2c73b60d612bd0f8f1e49",
+          "content_version": 1
+        }
+      }
+    }
+  ]
+}

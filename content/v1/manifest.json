@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "manifest_version": 4,
+  "manifest_version": 5,
   "languages": [
     "sa"
   ],
@@ -55,10 +55,10 @@
       "verse_count": 700,
       "packs": {
         "sa": {
-          "path": "content/v1/packs/bhagavad-gita/sa/0002.json.gz",
-          "bytes": 80575,
-          "sha256": "f4de664f612639b46c679ab366e9d618eee4dc0353e9aebfccb7256638cde0ac",
-          "content_version": 2
+          "path": "content/v1/packs/bhagavad-gita/sa/0003.json.gz",
+          "bytes": 151990,
+          "sha256": "44d0c5731d938bdde58a2b8e1618c0b0a5453e638f414f7e9ee466baf62cfce8",
+          "content_version": 3
         }
       }
     }

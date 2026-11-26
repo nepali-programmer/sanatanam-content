@@ -1,8 +1,11 @@
 {
   "schema": 1,
-  "manifest_version": 5,
+  "manifest_version": 6,
   "languages": [
-    "sa"
+    "sa",
+    "ne",
+    "hi",
+    "en"
   ],
   "deities": [
     {
@@ -54,6 +57,24 @@
       "order": 10,
       "verse_count": 700,
       "packs": {
+        "en": {
+          "path": "content/v1/packs/bhagavad-gita/en/0001.json.gz",
+          "bytes": 232589,
+          "sha256": "6457c067c0dc2756d13eeb25dfd39bc6d9b08af4003d81faf2cd36780405340e",
+          "content_version": 1
+        },
+        "hi": {
+          "path": "content/v1/packs/bhagavad-gita/hi/0001.json.gz",
+          "bytes": 246100,
+          "sha256": "5cb4a65a35d48f5e5cfb24724ed3890af64d4636424a17f114215313c3506769",
+          "content_version": 1
+        },
+        "ne": {
+          "path": "content/v1/packs/bhagavad-gita/ne/0001.json.gz",
+          "bytes": 244041,
+          "sha256": "f4c0fae140776702f6655b679b2ac20510eff05778be36802eb54d149e2424ca",
+          "content_version": 1
+        },
         "sa": {
           "path": "content/v1/packs/bhagavad-gita/sa/0003.json.gz",
           "bytes": 151990,
